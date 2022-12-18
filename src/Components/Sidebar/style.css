@@ -1,16 +1,17 @@
 .headwrapper {
   display: flex;
   flex-direction: row;
-  padding: 10px;
-  padding-left: 15px;
+  padding-top: 10px;
 }
 
 .sidebar {
-  height: 100%;
-  background-color: white;
+  /* height: 100%; */
+  background-color: #ffffff;
   padding-top: 9px;
   padding-left: 20px;
+  margin: 4px;
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .textwrap {
@@ -19,8 +20,8 @@
   margin-left: 5px;
 }
 
-.slidelist {
-  margin-top: 26px;
+.sidelist {
+  margin-top: 50px;
   padding: 10px;
   align-content: left;
   justify-content: left;
@@ -44,18 +45,20 @@
 }
 
 .divwrap {
-  margin-top: 260px;
+  margin-top: 210px;
   flex-direction: row;
   display: flex;
   height: 35px;
+  padding-bottom: 10px;
 }
 
 .iconwrap {
   align-items: center;
   justify-content: center;
+  display: flex;
   border-radius: 50%;
   background-color: #ffeaf0;
-  margin-right: 40px;
+  margin-right: 25px;
   padding: 10px;
 }
 

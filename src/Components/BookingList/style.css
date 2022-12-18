@@ -1,42 +1,66 @@
 .footer {
-  background-color: blue;
-  width: 50%;
+  background-color: #4a69ee;
+  width: 40%;
   border-radius: 14px;
-  border: 1px solid grey;
-  margin-left: 50px;
-  height: 40px;
-  text-align: center;
+  border: 1px solid #4a69ee;
+  /* margin-left: 50px; */
+  /* height: 0px; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .sidewrapper {
-  border-radius: 15px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 80%;
-  border: 1px solid grey;
+  border: 1px solid #ecedec;
   padding: 5px;
   margin-top: 10px;
 }
+.iconWrapper {
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 17px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
+.divWrap {
+  margin-bottom: 25px;
+  height: 5px;
+  margin-right: 3px;
+  width: 5px;
+  background-color: #f36890;
+  border-radius: 17px;
+}
 .list {
   margin-left: 10px;
-  margin-top: -3px;
-
+  margin-top: -1px;
   border-radius: 10px;
   border: 1px solid black;
-  height: 20px;
+  height: 15px;
   background-color: #cebba0;
 }
 .para {
   margin-top: 3px;
   justify-content: center;
   text-align: center;
-  font-size: 10px;
+  /* padding: 2px; */
+  font-size: 6px;
 }
 
 .viewall {
   justify-content: center;
   font-size: 10px;
   text-align: center;
-  color: #4a69ee;
+  color: #627af5;
 }
 .booking {
   display: flex;
@@ -52,13 +76,55 @@
 .newfeature {
   border-radius: 15px;
   width: 80%;
-  border: 1px solid grey;
-  padding: 5px;
+  border: 1px solid #ecebec;
+  padding: 8px;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 10px;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* height: 80px; */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #d7c4ee;
+  background-color: #f6ebff;
+}
+/* #d7c4ee; */
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.circleCont {
+  position: relative;
+}
+
+.halfCircle {
+  position: absolute;
+  top: 86%;
+  left: 24%;
+  transform: translate(-49%, -50%);
+  height: 60px;
+  width: 109px;
+  border-radius: 100px 100px 0 20px;
+  background-color: #ece7f1;
+  z-index: 1;
+  bottom: -101px;
+}
+.elipse {
+  position: absolute;
+  top: -39px;
+  right: -4px;
+  height: 40px;
+  width: 64px;
+  background-color: #ece7f1;
+  z-index: 1;
+  border-bottom-left-radius: 114px;
+  border-top-right-radius: 35px;
+  z-index: 1;
 }

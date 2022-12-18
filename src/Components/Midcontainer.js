@@ -6,10 +6,10 @@ import WelcomeScreen from './welcomeScreen';
 const Midcontainer = () => {
     return (
         <div className="container">
-            <div style={{ width: '60%', }}>
+            <div style={{ width: '65%', }}>
                 <WelcomeScreen />
             </div>
-            <div style={{ width: '30%' }}>
+            <div style={{ width: '35%' }}>
                 <Bookinglist />
             </div>
 

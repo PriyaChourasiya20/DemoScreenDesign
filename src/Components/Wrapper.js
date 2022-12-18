@@ -5,12 +5,12 @@ import { Grid, Box } from '@material-ui/core';
 
 function Wrapper() {
     return (
-        <Box sx={{ flexGrow: 1 }} style={{ backgroundColor: '#f5f5f5' }} >
-            <Grid container columns={16} >
+        <Box sx={{ flexGrow: 1 }} style={{ backgroundColor: '#fbfffe' }} >
+            <Grid container  >
                 <Grid item xs={2}>
                     <Sidebar />
                 </Grid>
-                <Grid item xs={10}>
+                <Grid item xs={9}>
                     <Midcontainer />
                 </Grid>
             </Grid >
